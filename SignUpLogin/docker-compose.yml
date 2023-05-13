@@ -1,14 +1,15 @@
 ﻿version: '3'
 services:
-  signuplogin:
+  signup-login:
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "80:80"
-      - "443:443"
-    depends_on:
-      - cassandra
+      - 80:80
+      - 443:443
 
-  cassandra:
+  cassandra-container:
     image: cassandra:latest
+    networks:
+      default:
+        ipv4_address: 172.17.0.3
