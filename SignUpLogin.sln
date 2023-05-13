@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignUpLogin", "SignUpLogin\SignUpLogin.csproj", "{D273D1FA-0DEA-4D30-BE33-2AD73B13A49B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTools", "GenericTools\GenericTools.csproj", "{03566696-E6F7-453D-AD2A-150E0D89A2BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D273D1FA-0DEA-4D30-BE33-2AD73B13A49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D273D1FA-0DEA-4D30-BE33-2AD73B13A49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D273D1FA-0DEA-4D30-BE33-2AD73B13A49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D273D1FA-0DEA-4D30-BE33-2AD73B13A49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03566696-E6F7-453D-AD2A-150E0D89A2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03566696-E6F7-453D-AD2A-150E0D89A2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03566696-E6F7-453D-AD2A-150E0D89A2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03566696-E6F7-453D-AD2A-150E0D89A2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29BCFD67-81B7-4FA9-AA50-7136505C3F22}
+	EndGlobalSection
+EndGlobal

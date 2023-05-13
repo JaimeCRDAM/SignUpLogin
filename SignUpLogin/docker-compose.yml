@@ -1,0 +1,14 @@
+﻿version: '3'
+services:
+  signuplogin:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - cassandra
+
+  cassandra:
+    image: cassandra:latest
