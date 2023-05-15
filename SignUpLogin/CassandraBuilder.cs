@@ -1,6 +1,4 @@
 ﻿using Cassandra;
-using Cassandra.Data.Linq;
-using System.Diagnostics.Metrics;
 
 namespace SignUpLogin
 {
